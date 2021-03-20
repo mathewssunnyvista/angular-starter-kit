@@ -1,0 +1,17 @@
+{
+  "enquiry": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "sunny",
+      "author": "mathew"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
