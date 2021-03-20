@@ -5,15 +5,20 @@
 
             <label>title</label>
             <input placeholder="Title" class="form-control form-control-lg" name="title" #title="ngModel"
-                [(ngModel)]="service.formData.title" required
-                [class.invalid]="title.invalid && title.touched">
+                [(ngModel)]="service.formData.title" required [class.invalid]="title.invalid && title.touched">
 
         </div>
         <div class="form-group col-md-6">
             <label>author</label>
             <input placeholder="Author" class="form-control form-control-lg" name="author" #author="ngModel"
-                [(ngModel)]="service.formData.author" required
-                [class.invalid]="author.invalid && author.touched">
+                [(ngModel)]="service.formData.author" required [class.invalid]="author.invalid && author.touched">
+        </div>
+        <div class="form-group col-md-6">
+      
+            <label><input name="sex" #sex="ngModel" ng-control="options" type="radio" [value]="0"
+                    [(ngModel)]="service.formData.sex">Male</label>
+            <label><input name="sex" #sex="ngModel" ng-control="options" type="radio" [value]="1"
+                    [(ngModel)]="service.formData.sex">Female</label>
         </div>
         <div class="form-group">
             <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">Submit</button>

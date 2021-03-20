@@ -26,6 +26,7 @@ export class EnquiryService {
       .toPromise()
       .then(res => this.list = res as Enquiry[]);
   }
+  
   deleteEnquiry(id: number) {
     return this.http.delete(`${this.baseURL}/${id}`);
   }

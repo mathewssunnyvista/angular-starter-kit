@@ -15,6 +15,7 @@ export class EnquiryComponent implements OnInit {
   ngOnInit(): void {
     this.service.refreshList();
   }
+  
   populateForm(selectedRecord: Enquiry) {
     this.service.formData = Object.assign({}, selectedRecord);
   }

@@ -3,17 +3,26 @@
     {
       "id": 1,
       "title": "gino",
-      "author": "sebastian"
+      "author": "sebastian",
+      "sex": 1
     },
     {
       "id": 3,
       "title": "sunny",
-      "author": "mathew"
+      "author": "mathew",
+      "sex": 2
     },
     {
       "id": 4,
       "title": "abigail",
-      "author": "mary mathews"
+      "author": "mary mathews",
+      "sex": 1
+    },
+    {
+      "id": 5,
+      "title": "hh",
+      "author": "hh",
+      "sex": 2
     }
   ],
   "profile": {
