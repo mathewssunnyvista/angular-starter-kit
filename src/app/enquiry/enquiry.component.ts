@@ -25,7 +25,7 @@ export class EnquiryComponent implements OnInit {
         .subscribe(
           res => {
             this.service.refreshList();
-            this.toastr.error("Deleted successfully", 'Payment Detail Register');
+            this.toastr.error("Deleted successfully", 'Enquiry');
           },
           err => { console.log(err) }
         )

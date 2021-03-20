@@ -2,13 +2,18 @@
   "enquiry": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "gino",
+      "author": "sebastian"
     },
     {
       "id": 3,
       "title": "sunny",
       "author": "mathew"
+    },
+    {
+      "id": 4,
+      "title": "abigail",
+      "author": "mary mathews"
     }
   ],
   "profile": {
